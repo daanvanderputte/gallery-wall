@@ -1,6 +1,6 @@
 ## Gallery Wall
 
-<img src=./ alt="Screenshot">
+<img src=./images/screenshot.png alt="Screenshot">
 
 Created a gallery wall using position and hover effects.
 
@@ -10,7 +10,7 @@ HTML5/CSS3
 
 <img src=./svgs/toolbox.svg alt="Tools" width="30"/>
 
-Visual Studio Code
+Visual Studio Code/Google Fonts
 
 <img src=./svgs/envelope.svg alt="Mail" width="20"/> daanvanderputte@pm.me
 
