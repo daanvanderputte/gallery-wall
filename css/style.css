@@ -1,15 +1,23 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 /* Inner border */
 img {
     width: 20rem;
     height: 20rem;
-    border: 3px black solid;
+    border: 2px black solid;
 }
 /* Outer border and color */
 #tokyo, #moscow, #berlin, #nyc {
-    border: 3px black solid;
-    padding: 10px 10px 60px 10px;
+    border: 2px black solid;
+    padding: 10px 10px 20px 10px;
     background-color: white;
     filter: grayscale();
+}
+/* City names */
+.city {
+    font-family: Permanent Marker;
+    font-size: 50px;
+    margin-left: 50px;
 }
 /* Position and transform */
 #tokyo {
