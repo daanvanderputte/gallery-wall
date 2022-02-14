@@ -4,45 +4,36 @@ img {
     height: 20rem;
     border: 3px black solid;
 }
-/* Color */
-#car1, #car2, #car3, #car4 {
-    filter: grayscale();
-}
-/* Outer border and position */
-#car1 {
+/* Outer border and color */
+#tokyo, #moscow, #berlin, #nyc {
     border: 3px black solid;
     padding: 10px 10px 60px 10px;
     background-color: white;
+    filter: grayscale();
+}
+/* Position and transform */
+#tokyo {
     position: absolute;
     top: 230px; left: 230px;
     transform: rotate(-45deg);
 }
-#car2 {
-    border: 3px black solid;
-    padding: 10px 10px 60px 10px;
-    background-color: white;
+#moscow {
     position: absolute;
     top: 100px; left: 450px;
     transform: rotate(-20deg);
 }
-#car3 {
-    border: 3px black solid;
-    padding: 10px 10px 60px 10px;
-    background-color: white;
+#berlin {
     position: absolute;
     top: 100px; right: 450px;
     transform: rotate(20deg);
 }
-#car4 {
-    border: 3px black solid;
-    padding: 10px 10px 60px 10px;
-    background-color: white;
+#nyc {
     position: absolute;
     top: 230px; right: 230px;
     transform: rotate(45deg);
 }
 /* Hover effect */
-#car1:hover, #car2:hover, #car3:hover, #car4:hover{
+#tokyo:hover, #moscow:hover, #berlin:hover, #nyc:hover{
     filter: none;
     transform: rotate(0deg);
     z-index: 1;
